@@ -30,6 +30,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Harjoitustyo", "Harjoitusty
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Harjoitukset", "Harjoitukset", "{F110DEBC-77DF-493A-9792-D1079645F483}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tehtava1(2)", "ViikkoTehtavat\Tehtava1\", "{1847D9EA-AE57-41FC-9DCE-C29F2733C70C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50792"
+		Debug.AspNetCompiler.PhysicalPath = "ViikkoTehtavat\Tehtava1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50792\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50792"
+		Release.AspNetCompiler.PhysicalPath = "ViikkoTehtavat\Tehtava1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50792\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50792"
+		SlnRelativePath = "ViikkoTehtavat\Tehtava1\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,8 +62,15 @@ Global
 		{3E07E2B3-CB80-4885-B897-D2149243510F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E07E2B3-CB80-4885-B897-D2149243510F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{3E07E2B3-CB80-4885-B897-D2149243510F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1847D9EA-AE57-41FC-9DCE-C29F2733C70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1847D9EA-AE57-41FC-9DCE-C29F2733C70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1847D9EA-AE57-41FC-9DCE-C29F2733C70C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1847D9EA-AE57-41FC-9DCE-C29F2733C70C}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1847D9EA-AE57-41FC-9DCE-C29F2733C70C} = {32FD7FE3-34B0-4EB6-93C4-72C4F201D509}
 	EndGlobalSection
 EndGlobal

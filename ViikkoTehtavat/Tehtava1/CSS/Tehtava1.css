@@ -1,0 +1,21 @@
+﻿body
+{
+        background-color:darkgray;
+}
+
+h1 
+{
+    background-color:aquamarine;
+}
+
+.parent 
+{
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+
+.child
+{
+    background-color: darkgoldenrod;
+}
