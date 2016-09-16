@@ -24,7 +24,7 @@
             <asp:TextBox ID="tbKarminLeveys" runat="server"></asp:TextBox>
         </div>
         <div class="child">
-            <asp:Button ID="btnLaske" runat="server" Text="Laske tarjoushinta"/>
+            <asp:Button ID="btnLaske" runat="server" Text="Laske tarjoushinta" OnClick="btnLaske_Click"/>
         </div>
     </div>
     <div class="parent">
@@ -42,5 +42,8 @@
         </div>
     </div>
     </form>
+    <span>
+        <asp:Label ID="lblFeedback" class="error" runat="server"></asp:Label>
+    </span>
 </body>
 </html>

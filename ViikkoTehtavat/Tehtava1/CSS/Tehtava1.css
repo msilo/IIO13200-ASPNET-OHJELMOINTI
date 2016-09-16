@@ -19,3 +19,8 @@ h1
 {
     background-color: darkgoldenrod;
 }
+
+.error
+{
+    color:red;
+}
