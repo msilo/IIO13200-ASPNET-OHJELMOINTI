@@ -18,9 +18,10 @@ public partial class Index : System.Web.UI.Page
         {
             BLLotto lotto = new BLLotto();
             List<int> list;
-            list = lotto.Lottery(0);
+            list = lotto.Lottery(Int32.Parse(rblMode.SelectedValue));
             foreach (var item in list)
                 tbResults.Text += " " + item.ToString();
+            tbResults.Text += "\n";
         }
         catch (Exception ex)
         {

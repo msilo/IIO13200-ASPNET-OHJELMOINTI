@@ -52,6 +52,14 @@ public class BLLotto
     private List<int> Viking()
     {
         List<int> list = new List<int>();
+        Random random = new Random();
+        int dice = 0;
+        for (int i = 0; i < 6; i++)
+        {
+            dice = random.Next(1, 49);
+            // While list does not containt value of dice
+            list.Add(dice);
+        }
         return list;
     }
 
