@@ -1,0 +1,20 @@
+﻿@{
+    var dataFile = Server.MapPath("~/App_Data/Oppilaat.txt");
+    Array userData = File.ReadAllLines(dataFile);
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Pages vs Web Forms</title>
+    </head>
+    <body>
+        @DateTime.Now
+        @foreach (string dataLine in userData)
+        {
+            foreach (string dataItem in dataLine.Split(','))
+            {@dataItem <text>&nbsp;</text>}
+            <br />
+        }
+    </body>
+</html>
