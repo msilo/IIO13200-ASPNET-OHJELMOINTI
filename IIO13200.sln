@@ -140,6 +140,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DemoWebFormWebPage", "Harjo
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tehtava9(1)", "ViikkoTehtavat\Tehtava9\", "{F6F84101-F6EA-47D0-A781-3332DCA4AB9A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59493"
+		Debug.AspNetCompiler.PhysicalPath = "ViikkoTehtavat\Tehtava9\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59493\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59493"
+		Release.AspNetCompiler.PhysicalPath = "ViikkoTehtavat\Tehtava9\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59493\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59493"
+		SlnRelativePath = "ViikkoTehtavat\Tehtava9\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -170,6 +192,10 @@ Global
 		{DAE2E101-E4AA-4DD7-A328-C279D7200D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAE2E101-E4AA-4DD7-A328-C279D7200D49}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{DAE2E101-E4AA-4DD7-A328-C279D7200D49}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F6F84101-F6EA-47D0-A781-3332DCA4AB9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F84101-F6EA-47D0-A781-3332DCA4AB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F84101-F6EA-47D0-A781-3332DCA4AB9A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F84101-F6EA-47D0-A781-3332DCA4AB9A}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,5 +206,6 @@ Global
 		{63E88FCF-3A30-4B87-BAEB-A00999DEB93A} = {32FD7FE3-34B0-4EB6-93C4-72C4F201D509}
 		{4E0A6A89-D0F3-4272-AE6D-E48B28A089A4} = {32FD7FE3-34B0-4EB6-93C4-72C4F201D509}
 		{DAE2E101-E4AA-4DD7-A328-C279D7200D49} = {F110DEBC-77DF-493A-9792-D1079645F483}
+		{F6F84101-F6EA-47D0-A781-3332DCA4AB9A} = {32FD7FE3-34B0-4EB6-93C4-72C4F201D509}
 	EndGlobalSection
 EndGlobal
